@@ -27,7 +27,8 @@ to determine when the user has fallen asleep.
 
 Initial hardware setup and Arduino configuration was followed from the @kitschpatrol BrainGrapher repo. I thank @kitschpatrol for allowing me to use his method in this project.
 
-Initial Setup Follows: https://github.com/kitschpatrol/BrainGrapher
+**Initial Setup Follows:** https://github.com/kitschpatrol/BrainGrapher
 
-![image](https://user-images.githubusercontent.com/56178841/136787275-1ab76783-0510-4853-b0e9-4dcbc6604f7a.png)
+### Code Summary
+###### Please see /JavaDoc folder for JavaDoc's for each .java file used in this project.
 
