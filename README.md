@@ -21,4 +21,4 @@ development. The hardware functions as a sensor and relay, meaning it collects t
 then sends it to the software. The software acts as the brains of the operation – processing the raw data
 to determine when the user has fallen asleep.
 
-![repo-settings-image](https://user-images.githubusercontent.com/18093541/63130482-99e6ad80-bf88-11e9-99a1-d3cf1660b47e.png)
+![image](https://user-images.githubusercontent.com/56178841/136786960-ea117beb-d001-446e-bb00-0ac347a778ac.png)
