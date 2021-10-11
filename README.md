@@ -1,6 +1,6 @@
 # Nap Control: A Novel System For Precisely Controlling Nap Duration
 ###### Please contact @tedtay for permission to reference or use any of the work/ code in this repository 
-### Project Abstract
+## Project Abstract
 
 Lack of sleep costs the UK economy £40 billion per year . However, this is unsurprising considering
 that over third of UK adults struggle to get to sleep at least once a week and of this group 46% say that
@@ -11,7 +11,7 @@ This dissertation details the planning and development of a prototype device tha
 The device created encourages napping through providing more control and certainty to users
 over their nap duration and therefore helps to mitigate the impact of a lack of sleep.
 
-### Methodology
+## Methodology
 This project has successfully developed a proof-of-concept system that uses electroencephalogram
 (EEG) brain data to determine when a subject has fallen asleep and allow an alarm to be set from
 that moment. 
@@ -23,13 +23,13 @@ to determine when the user has fallen asleep.
 
 ![image](https://user-images.githubusercontent.com/56178841/136786960-ea117beb-d001-446e-bb00-0ac347a778ac.png)
 
-### Prerequisites
+## Prerequisites
 
 Initial hardware setup and Arduino configuration was followed from the @kitschpatrol BrainGrapher repo. I thank @kitschpatrol for allowing me to use his method in this project.
 
 **Initial Setup Follows:** https://github.com/kitschpatrol/BrainGrapher
 
-### Code Summary
+## Code Summary
 ###### Please see /JavaDoc folder for JavaDoc's for each .java file used in this project.
 
 ![image](https://user-images.githubusercontent.com/56178841/136788336-6cd4fae4-0391-46ba-b20b-e008f375b094.png)
@@ -70,7 +70,7 @@ of deciding when the alarm should be set using its ‘checkAlarm’ method. This
 the past 100-sample average reading for the meditation value is above 0.75 and the 100-sample
 average for the alpha value is above 0.05 and if so, the wait to sound the alarm begins.
 
-### Example Run
+## Example Run
 
 The test subject was able to fall asleep quite quickly and around at the 150 second mark the attention
 value fell sharply while the meditation value continued to rise. This is the first indication the subject
