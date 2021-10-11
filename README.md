@@ -79,4 +79,5 @@ rise ever so slightly, this indicates the subject’s mind state is no longer th
 in particular which is typical of the early sleep stages. At around the 240 second mark both the
 meditation value was greater than 0.75 and the alpha value was above 0.05 meaning the alarm was set at
 that moment. This is a good demonstration of the system working perfectly the system working perfectly
+
 ![image](https://user-images.githubusercontent.com/56178841/136793540-a9ac9988-db35-46cc-9710-997ec37a155c.png)
