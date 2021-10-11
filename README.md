@@ -1,4 +1,5 @@
 # Nap Control: A Novel System For Precisely Controlling Nap Duration
+###### Please contact @tedtay for permission to reference or use any of the work/ code in this repository 
 ### Project Abstract
 
 Lack of sleep costs the UK economy £40 billion per year . However, this is unsurprising considering
@@ -10,3 +11,14 @@ This dissertation details the planning and development of a prototype device tha
 The device created encourages napping through providing more control and certainty to users
 over their nap duration and therefore helps to mitigate the impact of a lack of sleep.
 
+### Methodology
+This project has successfully developed a proof-of-concept system that uses electroencephalogram
+(EEG) brain data to determine when a subject has fallen asleep and allow an alarm to be set from
+that moment. 
+
+This system was implemented in two stages: hardware development and software
+development. The hardware functions as a sensor and relay, meaning it collects the brain wave data and
+then sends it to the software. The software acts as the brains of the operation – processing the raw data
+to determine when the user has fallen asleep.
+
+![repo-settings-image](https://user-images.githubusercontent.com/18093541/63130482-99e6ad80-bf88-11e9-99a1-d3cf1660b47e.png)
