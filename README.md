@@ -22,3 +22,12 @@ then sends it to the software. The software acts as the brains of the operation 
 to determine when the user has fallen asleep.
 
 ![image](https://user-images.githubusercontent.com/56178841/136786960-ea117beb-d001-446e-bb00-0ac347a778ac.png)
+
+### Prerequisites
+
+Initial hardware setup and Arduino configuration was followed from the @kitschpatrol BrainGrapher repo. I thank @kitschpatrol for allowing me to use his method in this project.
+
+Initial Setup Follows: https://github.com/kitschpatrol/BrainGrapher
+
+![image](https://user-images.githubusercontent.com/56178841/136787275-1ab76783-0510-4853-b0e9-4dcbc6604f7a.png)
+
