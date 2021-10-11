@@ -32,3 +32,40 @@ Initial hardware setup and Arduino configuration was followed from the @kitschpa
 ### Code Summary
 ###### Please see /JavaDoc folder for JavaDoc's for each .java file used in this project.
 
+![image](https://user-images.githubusercontent.com/56178841/136788336-6cd4fae4-0391-46ba-b20b-e008f375b094.png)
+
+**• Main.java**
+
+The main method starts off by listening for available serial ports and creates a Scanner object out
+of the first open communication port it finds. This scanner object is then used to listen for new
+data in the data stream.
+
+The main method also starts the GUI class as well as creates the other class objects which
+facilitates the data processing. In addition, the Main class provides helpful test functions such as 
+printing live data to terminal, saving test data to a text file as well and catching exceptions if any
+are thrown.
+
+**• RawReading.java**
+
+The RawReading object is one of the first class objects to be created (besides the GUI), this objects
+only purpose is to take in the String object from the scanner, which originated from the Eleegoo
+Uno, and split this CSV-style string into 11 individual values which can be called upon later.
+Therefore, this class only has one method ‘splitRawCsv’ and takes a single String in its constructor
+called ‘rawCsv’.
+
+**• SerialData.java**
+
+The SerialData class is where most of the data formatting take place. This class takes multiple
+integer parameters which have been created from the splitting of the String in the RawReading
+method. These values can then be processed, this is done using many methods which return the
+normalised values of the integers passed (the raw readings from the MindFlex). These values can
+be remotely accessed individually or as a group in an Array object.
+
+**• GUI.java**
+
+The GUI class takes care of the user interface and charts. To achieve this it holds arrays of rolling
+averages of the data collected so far which are then updated and plotted onto the line chart. This
+class also takes care of listening for user inputs such as the pressing of buttons. It also takes care
+of deciding when the alarm should be set using its ‘checkAlarm’ method. This method checks that
+the past 100-sample average reading for the meditation value is above 0.75 and the 100-sample
+average for the alpha value is above 0.05 and if so, the wait to sound the alarm begins.
