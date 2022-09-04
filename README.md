@@ -1,5 +1,5 @@
 # Nap Control: A Novel System For Precisely Controlling Nap Duration
-###### Please contact @tedtay for permission to reference or use any of the work/ code in this repository 
+###### Please contact @tedtay for permission to reference or use any of ideas or the work/ code in this repository 
 ## Project Abstract
 
 Lack of sleep costs the UK economy £40 billion per year . However, this is unsurprising considering
